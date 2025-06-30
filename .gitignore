@@ -1,0 +1,50 @@
+# Java
+*.class
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+__pycache__/
+*.so
+*.o
+*.obj
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Build
+target/
+build/
+bin/
+out/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración sensibles
+.env
+.env.*
+*.env
+*.env.*
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archivos de depuración
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.cer
+*.crt
+*.key
+*.pem
