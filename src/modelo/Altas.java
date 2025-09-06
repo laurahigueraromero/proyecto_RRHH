@@ -46,7 +46,7 @@ public class Altas {
 			e.printStackTrace();
 			System.out.println("Error en el proceso de alta: " + e.getMessage());
 		} finally {
-			sc.close();
+		
 		}
 	}
 
