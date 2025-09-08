@@ -57,6 +57,9 @@ public class Fichaje {
 
 	public void insertarFichaje(String idEmpleado, String tipo) throws SQLException {
 
+		// meter un login de empleado
+		// solicitar vacaciones
+		// TODO: menu de empleado
 		System.out.println("inserte id de empleado");
 		idEmpleado = sc.nextLine();
 		System.out.println("Escriba entrada o salida");
@@ -66,9 +69,5 @@ public class Fichaje {
 
 	}
 	
-	public void listarFichajes () {
-		
-		
-	}
 
 }

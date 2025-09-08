@@ -8,13 +8,15 @@ import modelo.Empleado;
 import modelo.Fichaje;
 import modelo.Menu;
 import modelo.Nota;
-
+// ./run.sh
 public class Main {
 
 	public static void main(String[] args) throws SQLException {
 
 		Menu menu = new Menu();
 		menu.visualizaMenu();
+
+		
 
 	}
 

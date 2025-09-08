@@ -9,7 +9,12 @@ public class MenuRH {
 	public void visualizaMenu() throws SQLException {
 
 		int option = 0;
-
+		// meter un login de empleado RH
+		// control de fichajes
+		// crear usuarioEmpleado
+		// solicitudes
+		// TODO: meter en consola las tablas de las bases de datos
+		
 		do {
 			System.out.println("*******************************************************************************");
 			System.out.println("******Seleccione opcion:\n1.Altas\n2.Bajas\n3.notas\n4.Buscar empleado*********");

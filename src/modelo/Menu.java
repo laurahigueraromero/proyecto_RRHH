@@ -10,7 +10,7 @@ public class Menu {
 		int option = 0;
 		do {
 			System.out.println("****************************************************************************************");
-			System.out.println("**************Seleccione cargo\n1.Empleado (Fichar) \n2.Recursos humanos****************");
+			System.out.println("**************Seleccione cargo\n1.Empleado  \n2.Recursos humanos****************");
 			System.out.println("****************************************************************************************");
 			option = sc.nextInt();
 			sc.nextLine();
@@ -18,8 +18,8 @@ public class Menu {
 			switch (option) {
 
 			case 1:
-				Fichaje fichaje = new Fichaje();
-				fichaje.insertarFichaje(null, null);
+				MenuEmpleado mEm = new MenuEmpleado();
+				mEm.visualizaMenuEmpleado();
 
 				break;
 			case 2:
